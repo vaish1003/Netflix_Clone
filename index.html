@@ -2,160 +2,206 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=k, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="main">
-        <nav>
-            <span><img width="53" src="assets/logo.svg" alt=""></span>
-            <div>
-                <button class="btn">English</button>
-                <button class="btn btn-red-sm">Sign In</button>
-            </div>
-        </nav>
-        <div class="box"></div>
-        <div class="hero">
-            <span>The biggest Indian hits. Ready to watch here from ₹149.</span>
-            <span>Join today. Cancel anytime.</span>
-            <span>Ready to watch? Enter your email to create or restart your membership.</span>
-            <div class="hero-buttons">
-                <input type="text" id="email address" placeholder="Email address">
-                <button class="btn btn-red">Get Started &gt;</button>
-            </div>
-        </div>
-
-        <div class="separation"></div>
-        
+    <div class="nav" id="nav">
+        <img src="assets/netflix-logo.png" alt="" class="nav__logo">
+        <img src="assets/netflix-avatar.png" alt="" class="nav__avatar">
     </div>
-
-    <section class="first">
-        <div>
-            <span>Enjoy on your TV</span>
-            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+    <div class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Money Heist</h1>
+            <div class="banner__buttons">
+                <button class="banner__button">Play</button>
+                <button class="banner__button">My List</button>
+            </div>
+            <div class="banner__description">
+              To carry out the biggest heist in history, a mysterious man called The Professor recruits 
+              a band of eight robbers who have a single characteristics: n... 
+            </div>
         </div>
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay loop muted></video>
+    </div>
+    <div class="banner--fadeBottom"></div>
+    <div class="row">
+        <h2>NETFLIX ORIGINALS</h2>
+        <div class="row__posters">
+            <img src="assets/large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie5.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie6.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie7.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie8.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie5.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie6.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie7.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="assets/large-movie8.jpg" alt="" class="row__poster row__posterLarge">
         </div>
-    </section>
-
-    <div class="separation"></div>
-
-    <section class="first second">
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+    </div>
+    <div class="row">
+        <h2>Trending Now</h2>
+        <div class="row__posters">
+            <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+            <img src="assets/small-movie8.jpg" alt="" class="row__poster">
         </div>
-        <div>
-            <span>Download your shows to watch offline</span>
-            <span>Save your favourites easily and always have something to watch.</span>
+    </div>
+    <div class="row">
+        <h2>Top Rated</h2>
+        <div class="row__posters">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
         </div>
-    </section>
-
-    <div class="separation"></div>
-
-    <section class="first third">
-        <div>
-            <span>Watch everywhere</span>
-            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+    </div>
+    <div class="row">
+        <h2>Action Movies</h2>
+        <div class="row__posters">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">   
         </div>
-        <div class="secImg">
-            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png">
-            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" autoplay loop muted></video>
+    </div>
+    <div class="row">
+        <h2>Comedy Movies</h2>
+        <div class="row__posters">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">   
         </div>
-    </section>
-
-    <div class="separation"></div>
-
-    <section class="first fourth">
-        <div class="secImg">
-            <img src="https://occ-0-3216-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d">
+    </div>
+    <div class="row">
+        <h2>Horror Movies</h2>
+        <div class="row__posters">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">   
         </div>
-        <div>
-            <span>Create profiles for kids</span>
-            <span>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</span>
+    </div>
+    <div class="row">
+        <h2>Romance Movies</h2>
+        <div class="row__posters">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">   
         </div>
-    </section>
-
-    <div class="separation"></div>
-
-    <section class="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="box">
-            <span>What is Netflix?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>    
-        <div class="box">           
-            <span>How much does Netflix cost?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+    </div>
+    <div class="row">
+        <h2>Documentaries</h2>
+        <div class="row__posters">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie1.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie2.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie3.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie4.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie5.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie6.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie7.jpg" alt="" class="row__poster">
+        <img src="assets/small-movie8.jpg" alt="" class="row__poster">   
         </div>
-        <div class="box">     
-            <span>Where can I watch?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-        <div class="box">     
-            <span>How do I cancel?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-        <div class="box">     
-            <span>What can I watch on Netflix?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </div>
-        <div class="box">    
-            <span>Is Netflix good for kids?</span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 4V20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 12H20" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>     
-        </div>
-    </section>
-
-    <div class="separation"></div>
-
-    <footer>
-        <div class="questions">Questions? Call 000-800-919-1694</div>
-        <div class="footer">
-        <div class="footer-item">
-            <a href="faq">FAQ</a>
-            <a href="faq">Investor Relations</a>
-            <a href="faq">Privacy</a>
-            <a href="faq">Speed Test</a>
-        </div>
-        <div class="footer-item">
-            <a href="faq">Help Centre</a>
-            <a href="faq">Jobs</a>
-            <a href="faq">Cookie Preferences</a>
-            <a href="faq">Legal Notices</a>
-        </div>
-        <div class="footer-item"> 
-            <a href="faq">Account</a>
-            <a href="faq">Ways to Watch</a>
-            <a href="faq">Corporate Information</a>
-            <a href="faq">Only on Netflix</a>
-        </div>
-        <div class="footer-item">
-            <a href="faq">Media Centre</a>
-            <a href="faq">Terms of Use</a>
-            <a href="faq">Contact Us</a>
-        </div>
-        </div>
-    </footer>
+    </div>
+    <script>
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll',() => {
+            if(window.scrollY >=100) {
+                nav.classList.add('nav__black');
+            } else {
+                nav.classList.remove('nav__black');
+            }
+        });
+    </script>
 </body>
 </html>
